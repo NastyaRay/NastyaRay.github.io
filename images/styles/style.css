@@ -1,0 +1,48 @@
+html {
+	background-color: #C4FACC;
+}
+img.resize {
+    width:100px;
+    height: 50;
+}
+img {
+	display: block;
+	margin: auto;
+}
+p {
+	color: #186A25;
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: 1px;
+	text-align:  center;
+	font-family: Cursive;
+	placeholder: "Monotype Corsiva";
+}
+h1 {
+	color: #178126;
+	font-size: 40px;
+	text-align:  center;
+	font-family: Cursive;
+	placeholder: "Monotype Corsiva";
+}
+h2 {
+	color: #178126;
+	font-size: 40px;
+	text-align:  center;
+	font-family: Cursive;
+	placeholder: "Monotype Corsiva";
+}
+h3 {
+	color: #178126;
+	font-size: 40px;
+	text-align:  center;
+	font-family: Cursive;
+	placeholder: "Monotype Corsiva";
+}
+h4 {
+	color: #178126;
+	font-size: 40px;
+	text-align:  center;
+	font-family: Cursive;
+	placeholder: "Monotype Corsiva";
+}
