@@ -1,17 +1,243 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href="images/styles/style.css" rel="stylesheet" type="text/css">
-<meta charset="utf-8">
-<title> Пароды собак </title>
-</head>
-<body>
-<img src="images/images/22.jpg" alt="errow">
-<p>Собаки бывают разных пород</p>
-<h1> На пример: </h1>
-<h2>Боксёр</h2>
-<h3>Йоркширский терьер</h3>
-<h4>Лайка</h4>
-<a href="http://www.zoopicture.ru/porody-sobak">Подробнее</a>
-</body>
+  <head>
+    <meta charset="utf-8">
+	<title>Викторина «Логикум»</title>
+	<style>
+	.ppp2 {
+	 }
+	 body {
+	 padding: 0 20px 20px 400px;
+	 border: 5px solid transparent;}
+	  p { color: black;
+	  font-family: 'Times New Roman', Times, serif;
+	  font-size: 20px;}
+	 </style>
+  </head>
+   <body bgcolor="#000" background="images/1.jpg">
+   <h1 class="iii2"> </h1>
+    <h1 class="iii" >Викторина «Логикум»</h1>
+	<p class="sss" > </p>
+	 <p class="ooo">Описание:</p>
+	  <p class="ooo2" >Мы зададим вам 10 логических вопросов, на которые вы должны будете ответить.</p>
+	  <p class="rrr" >  В конце викторины вы сможете провереть свои отвты. Удачи!</p>
+	  <p class="sss1" > </p>
+	  <p class="sss2" > </p>
+	  <p class="sss3" > </p>
+	  <p class="sss4" > </p>
+	  <p class="sss5" > </p>
+	  <p class="sss6" > </p>
+	  <p class="sss7" > </p>
+	  <p class="sss8" > </p>
+	  <p class="sss9" > </p>
+	  <div >
+	   <input style="margin-left:auto" type="submit" value="Начать викторину!" class="ppp2 ppp3 ppp4">
+	   </div>
+    <script>
+	var a = document.querySelector (".ppp2")
+	var a1 = document.querySelector (".ooo")
+	var a2 = document.querySelector (".ooo2")
+	var a3 = document.querySelector (".iii")
+	var a4 = document.querySelector (".ppp3")
+	var a5 = document.querySelector (".ppp4")
+	var a6 = 0
+	var a7 = document.querySelector (".iii2")
+	var a8 = document.querySelector (".sss1")
+	var a9 = document.querySelector (".sss2")
+	var a10 = document.querySelector (".sss3")
+	var a11 = document.querySelector (".sss4")
+	var a12 = document.querySelector (".sss5")
+	var a13 = document.querySelector (".sss6")
+	var a14 = document.querySelector (".sss7")
+	var a15 = document.querySelector (".sss8")
+	var a16 = document.querySelector (".sss9")
+	var a17 = document.querySelector (".sss")
+	var a18 = document.querySelector (".rrr")
+	{console.log(a6)}
+	a.onclick=function()
+	{start ()}
+	function start ()
+	{a.textContent=""
+	a1.textContent="Сколько месяцев в году имеют 28 дней?"
+	a2.textContent=""
+	a18.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="1 вопрос"
+	a.parentNode.removeChild(a)
+	a=document.createElement("button")
+	document.body.appendChild(a)//
+	a.textContent="1 месяц"
+	a.addEventListener("click", start1)	
+	a4=document.createElement("button")
+	document.body.appendChild(a4)//
+	a4.textContent="6 месяцев"
+	a4.addEventListener("click", start1)
+	a5=document.createElement("button")
+	document.body.appendChild(a5)//
+	a5.textContent="12 месяцев"
+	a5.addEventListener("click", start1)
+	a10.textContent=""}
+	function start1 ()
+	{a.textContent=""
+	
+	a1.textContent="Кого австралийцы называют морской осой?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="2 вопрос"
+	a.textContent="Акулу"
+	a.addEventListener("click", start2)
+	a4.textContent="Медузу"
+	a4.addEventListener("click", start2)
+	a5.textContent="Краба"
+	a5.addEventListener("click", start2)}
+	function start2 ()
+	{a.textContent=""
+	a1.textContent="Что нужно делать, когда видишь зелёного человечка?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="3 вопрос"
+	a.textContent="Бежать"
+	a.addEventListener("click", start3)
+	a4.textContent="Вызывать скорую"
+	a4.addEventListener("click", start3)
+	a5.textContent="Переходить улицу"
+	a5.addEventListener("click", start3)}
+	function start3 ()
+	{a.textContent=""
+	a1.textContent="Что можно видеть с закрытыми глазами?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="4 вопрос"
+	a.textContent="Сны"
+	a.addEventListener("click", start4)
+	a4.textContent="Ничего"
+	a4.addEventListener("click", start4)
+	a5.textContent="Будущее"
+	a5.addEventListener("click", start4)}
+	function start4 ()
+	{a.textContent=""
+	a1.textContent="Маленький, серенький на слона похож. Кто это?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="5 вопрос"
+	a.textContent="Слонёнок"
+	a.addEventListener("click", start5)
+	a4.textContent="Мышонок"
+	a4.addEventListener("click", start5)
+	a5.textContent="Котёнок"
+	a5.addEventListener("click", start5)}
+	function start5 ()
+	{a.textContent=""
+	a1.textContent="На какой вопрос нельзя ответить «да»?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="6 вопрос"
+	a.textContent="Ты слышишь меня?"
+	a.addEventListener("click", start6)
+	a4.textContent="Ты здесь?"
+	a4.addEventListener("click", start6)
+	a5.textContent="Ты спишь?"
+	a5.addEventListener("click", start6)}
+	function start6 ()
+	{a.textContent=""
+	a1.textContent="Сколько будет 2+2*2?"
+	a2.textContent=""
+	a3.textContent="7 вопрос"
+	a.textContent="8"
+	a.addEventListener("click", start7)
+	a4.textContent="6"
+	a4.addEventListener("click", start7)
+	a5.textContent="4"
+	a5.addEventListener("click", start7)}
+	function start7 ()
+	{a.textContent=""
+	a1.textContent="В каком месяце болтливая Светочка говорит меньше всего?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="8 вопрос"
+	a.textContent="В марте"
+	a.addEventListener("click", start8)
+	a4.textContent="В апреле"
+	a4.addEventListener("click", start8)
+	a5.textContent="В феврале"
+	a5.addEventListener("click", start8)}
+	function start8 ()
+	{a.textContent=""
+	a1.textContent="Что принадлежит вам, однако другие им пользуются чаще, чем вы?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="9 вопрос"
+	a.textContent="Ваше имя"
+	a.addEventListener("click", start9)
+	a4.textContent="Ваша рука"
+	a4.addEventListener("click", start9)
+	a5.textContent="Ваша тетрадка"
+	a5.addEventListener("click", start9)}
+	function start9 ()
+	{a.textContent=""
+	a1.textContent="Какой болезнью на земле никто не болел?"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent="10 вопрос"
+	a.textContent="Чумой"
+	a.addEventListener("click", start10)
+	a4.textContent="Чёрной оспой"
+	a4.addEventListener("click", start10)
+	a5.textContent="Морской"
+	a5.addEventListener("click", start10)}
+	function start10 ()
+	{a.textContent=""
+	a1.textContent="Викторина окончена!"
+	a2.textContent=""
+	a7.textContent="Викторина «Логикум»"
+	a3.textContent=""
+	a.textContent="Сравнить ответы"
+	a4.parentNode.removeChild(a4)
+	a5.parentNode.removeChild(a5)
+	a.addEventListener("click", start11)}
+	function start11 ()
+	{a.textContent=""
+	a1.textContent=""
+	a2.textContent=""
+	a3.textContent=""	
+	a7.textContent="Викторина «Логикум»"
+	a.parentNode.removeChild(a)
+	a4=document.createElement("button")
+	document.body.appendChild(a4)
+	a4.textContent="На главную страницу"
+	a4.addEventListener("click", start12)
+	a2.textContent="Сколько месяцев в году имеют 28 дней? Ответ: 12 месяцев"
+	a8.textContent="Кого австралийцы называют морской осой? Ответ: медузу"
+	a9.textContent="Что нужно делать, когда видишь зелёного человечка? Ответ: переходить улицу"
+	a10.textContent="Что можно видеть с закрытыми глазами? Ответ: сны"
+	a11.textContent="Маленький, серенький на слона похож. Кто это? Ответ: слонёнок"
+	a12.textContent="На какой вопрос нельзя ответить «да»? Ответ: ты спишь?"
+	a13.textContent="Сколько будет 2+2*2? Ответ: 6"
+	a14.textContent="В каком месяце болтливая Светочка говорит меньше всего? Ответ: в феврале"
+	a15.textContent="Что принадлежит вам, однако другие им пользуются чаще, чем вы? Ответ: ваше имя"
+	a16.textContent="Какой болезнью на земле никто не болел? Ответ: морской"
+	a17.textContent="Правильные ответы"}
+	function start12 ()
+	{a.textContent="Начать викторину!"
+	a1.textContent="Описание:"
+	a2.textContent="Мы зададим вам 10 логических вопросов, на которые вы должны будете ответить."
+	a3.textContent="Викторина «Логикум»"
+	a=document.createElement("button")
+	document.body.appendChild(a)
+	a.textContent="Начать викторину!"
+	a.addEventListener("click", start)
+	a4.parentNode.removeChild(a4)
+	a7.textContent=""
+	a8.textContent=""
+	a9.textContent=""
+	a10.textContent="В конце викторины вы сможете провереть свои отвты. Удачи!"
+	a11.textContent=""
+	a12.textContent=""
+	a13.textContent=""
+	a14.textContent=""
+	a15.textContent=""
+	a16.textContent=""
+	a17.textContent=""}
+	</script>
+  </body>
 </html>
